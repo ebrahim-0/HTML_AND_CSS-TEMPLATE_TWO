@@ -548,6 +548,8 @@ header .container nav .menu:hover + ul {
 @media (max-width: 767px) {
   .static .container .box {
     flex-basis: 100%;
+  }
+  .static .container .box:not(.last) {
     border-bottom: 2px solid white;
   }
 }
